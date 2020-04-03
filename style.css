@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    background-color: rgb(235, 147, 137);
+    
+}
+
+text {
+    font-size: medium;
+    font-weight: 200;
+    text-align: justify;
+    
+}
+
+.credits {
+    text-align: right;
+}
+
+td.description {
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+}
