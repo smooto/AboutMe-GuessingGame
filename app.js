@@ -25,7 +25,8 @@ function launchQuiz() {
     if (confirmed === false) {
         return;
     }
-    const emptyString = '';
+    
+    // const emptyString = '';
 
     const firstName = prompt("What's do peole call you?");
     name = firstName;
@@ -40,13 +41,11 @@ function launchQuiz() {
     } 
 
     let response = 'Your name is ' + name;
-    let moreQuiz;
-
+    // let moreQuiz;
 
     if (correctAnswers >= 1) {
-        moreQuiz = prompt(response + ' so you want more of Salmon speaks?!');
-    }  
-    if (isYes(moreQuiz) === false) {
+        /* moreQuiz = */prompt(response + ' so you want more of Salmon speaks?!');
+    } else {
         alert('So why are ya here buddy?');
     }
 
